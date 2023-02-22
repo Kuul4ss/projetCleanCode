@@ -3,18 +3,19 @@ package functionnal.model;
 import java.util.Objects;
 
 public class Hero {
-    String name;
+
+
+    private String name;
     private Double healthPoint;
     private Integer experiencePoint = 0;
     private Double power;
     private Double armor;
-    private Rarity rarity;
+    private HeroRarity rarity;
     private Integer level = 1;
 
-    public Hero(String name,Rarity rarity) {
+    public Hero(String name, HeroRarity rarity) {
         this.name = name;
         this.rarity = rarity;
-
     }
 
     public void takeDamage(Integer enemyPower){
@@ -61,7 +62,7 @@ public class Hero {
         return armor;
     }
 
-    public Rarity getRarity() {
+    public HeroRarity getRarity() {
         return rarity;
     }
 

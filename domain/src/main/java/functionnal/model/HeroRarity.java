@@ -1,5 +1,5 @@
 package functionnal.model;
 
-public enum Rarity {
+public enum HeroRarity {
     COMMON,RARE,LEGENDARY
 }

@@ -2,7 +2,7 @@ package functionnal.model;
 
 public class Fight {
 
-
+    private Integer id;
     private Boolean isWinner;
     private Hero opponent;
 
